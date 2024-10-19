@@ -61,4 +61,7 @@ public class Member {
     @ColumnDefault("0")
     private Float expLevel;
 
+    public void expLevelUp() {
+        this.expLevel += 10;
+    }
 }
